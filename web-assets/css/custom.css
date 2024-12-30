@@ -1,0 +1,786 @@
+.transparent-header {
+  background-color: transparent;
+}
+
+.transparent-header.header-scroll {
+  background-color: #ffffff !important;
+}
+
+.transparent-header.header-scroll .container .navbar-brand .logo-black {
+  display: block !important;
+}
+
+.transparent-header.header-scroll .container .navbar-brand .logo-white {
+  display: none;
+}
+
+.transparent-header.header-scroll .container .navbar-nav .nav-item a {
+  color: #000000;
+}
+
+.transparent-header .container {
+  background-color: transparent;
+  border-bottom: 1px solid transparent;
+}
+
+.transparent-header .container .navbar-brand .logo-black {
+  display: none;
+}
+
+.transparent-header .container .navbar-nav .nav-item a {
+  color: #ffffff;
+}
+
+/***end-header***/
+/***CAREER****/
+.career-banner {
+  background-image: url(../images/career-banner.png);
+  padding-top: 230px;
+  padding-bottom: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.career-banner::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url(../images/career-gdnt.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.career-banner::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  bottom: -10px;
+  left: 0;
+  background-image: url(../images/career-open-bg.png);s
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+
+.career-banner h5 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 89px;
+  color: #ffffff;
+}
+
+.career-banner p {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 43px;
+  color: #ffffff;
+}
+
+/****End-banner***/
+.open-career {
+  margin-top: -50px;
+  position: relative;
+  z-index: 999;
+}
+
+.open-career h6 {
+  font-size: 37px;
+  font-weight: 400;
+  line-height: 45px;
+  color: #000000;
+}
+
+.open-career .head {
+  font-size: 24px;
+  font-weight: 400;
+  color: #625b7c;
+}
+
+.open-career .btn {
+  border: 1px solid;
+  border-radius: 15px;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.open-career .btn svg {
+  margin-left: 5px;
+}
+
+.open-career .accordion-career {
+  margin-top: 100px;
+}
+
+.open-career .accordion-career .accordion-item {
+  border: none !important;
+}
+
+.open-career .accordion-career .accordion-item .accordion-button {
+  color: #0c63e4;
+  background-color: transparent !important;
+  box-shadow: none;
+  border-radius: 0px !important;
+  color: #150936;
+  font-size: 28px;
+  font-weight: 300;
+  border-top: 1px solid #d6dded;
+  padding: 30px;
+}
+
+.open-career .accordion-career .accordion-item .accordion-body {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 29px;
+}
+
+/***end accordian**/
+.live-value {
+  margin-top: 100px;
+  padding: 50px 0px;
+  background-color: #000000;
+  position: relative;
+}
+
+.live-value::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  bottom: 0px;
+  left: 0;
+  background-image: url(../images/live-purple-left.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+
+.live-value::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-image: url(../images/live-blue-right.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.live-value .head {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 90px;
+  position: relative;
+  z-index: 999;
+}
+
+.live-value .description {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 47px;
+  position: relative;
+  z-index: 999;
+}
+
+.live-value img {
+  margin-top: 75px;
+}
+
+.live-value .value-box {
+  position: relative;
+  z-index: 9999;
+  padding-left: 15px;
+  border-left: 1px solid rgba(214, 221, 237, 0.3490196078);
+  margin-bottom: 65px;
+}
+
+.live-value .value-box .no {
+  color: rgba(214, 221, 237, 0.3490196078);
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 47px;
+}
+
+.live-value .value-box .name {
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+
+.live-value .value-box p {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+  margin-top: 25px;
+}
+
+.life-company {
+  padding-top: 100px;
+}
+
+.life-company .head {
+  color: #000000;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.life-company p {
+  color: #000000;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+.client-carousel-career {
+  padding: 100px 0px;
+}
+
+/***CAREER- End****/
+/**********PORTFOLIO-DETAILS*************************/
+.portfolio-detail-page-wrapper .portfolio-deatil-banner {
+  padding: 110px 0px 160px 0px;
+  /* background-image: url(../images/bg-service.jpg); */
+  background-image: url(../images/mvp\ background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  background-size: cover;
+  position: relative;
+}
+
+.portfolio-detail-page-wrapper.cus-slice .portfolio-deatil-banner::after {
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  background-image: url(../images/service-vactor2.png);
+  height: 474px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portfolio-detail-page-wrapper .portfolio-deatil-banner .title {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 80px;
+  /* margin-bottom: 20px;  for mvp style   */
+}
+
+.portfolio-detail-page-wrapper .portfolio-deatil-banner .shapebg {
+  position: relative;
+  display: inline-flex;
+}
+
+.portfolio-detail-page-wrapper .portfolio-deatil-banner .shapebg::before {
+  position: absolute;
+  bottom: -30px;
+  content: "";
+  background: url(../images/banner-shape.png) no-repeat center right;
+  background-size: contain;
+  height: 45px;
+  width: 218px;
+}
+
+.portfolio-detail-page-wrapper .portfolio-deatil-banner p {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 45px;
+  margin-bottom: 100px;
+  opacity: 71%;
+}
+
+.portfolio-banner-img {
+  position: relative;
+  /* z-index: 99; */
+}
+
+.portfolio-detail-page-wrapper .share-portfolio .share-btn button {
+  background-color: #f3f4f6;
+  border: none;
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  padding: 5px 5px;
+}
+
+.portfolio-detail-page-wrapper .share-portfolio .portfolio-content-main h3 {
+  color: #150936;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 135%;
+}
+
+.portfolio-detail-page-wrapper .share-portfolio .portfolio-content-main p {
+  color: #150936;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 135%;
+  font-weight: 200;
+  margin-top: 20px;
+}
+
+.shape-pt {
+  box-shadow: 0px 14px 64px -4px #18274b1f;
+  box-shadow: 0px 8px 22px -6px #18274b1f;
+  width: 82px;
+  height: 82px;
+  position: relative;
+  z-index: 9;
+  border-radius: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+}
+
+.bg-black {
+  background: #000000;
+}
+
+.shape-pt img {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+}
+
+.portfolio-detail-page-wrapper .portfolio-carousel {
+  padding: 100px 0px;
+}
+
+.portfolio-detail-page-wrapper .portfolio-carousel .post-item img {
+  width: 100%;
+}
+
+.portfolio-detail-page-wrapper .mob-img {
+  width: 80%;
+}
+
+.portfolio-detail-page-wrapper .service-provide {
+  margin-top: 80px;
+  position: relative;
+}
+
+.portfolio-detail-page-wrapper .service-provide::before {
+  position: absolute;
+  content: "";
+  background: url(..//images/key-ser-bg.png);
+  height: 1200px;
+  width: 100%;
+  max-width: 440px;
+  top: -65%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.portfolio-detail-page-wrapper .service-provide .container {
+  position: relative;
+  z-index: 99;
+}
+
+.portfolio-banner-img img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 99;
+}
+
+.portfolio-banner-content {
+  max-width: 650px;
+  /* Add margin-top for mvp */
+  margin-top: 80px;
+}
+
+.portfolio-detail-page-wrapper .service-provide h2 {
+  margin-bottom: 44px;
+  color: #150936;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.portfolio-detail-page-wrapper .service-provide .head {
+  color: #000000;
+  font-size: 26px;
+  font-weight: 300;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.portfolio-detail-page-wrapper .service-provide .btn-service {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.portfolio-detail-page-wrapper .service-provide .btn-service.btn-service-b {
+  margin-bottom: 30px;
+}
+
+.portfolio-detail-page-wrapper
+  .service-provide
+  .btn-service.btn-service-b
+  button:last-child {
+  width: 208px;
+}
+
+.portfolio-detail-page-wrapper .service-provide .btn-service button {
+  border: 1px solid #060311;
+  border-radius: 15px;
+  padding: 6px 20px;
+  font-size: 16px;
+  font-weight: 300;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+}
+
+.portfolio-detail-page-wrapper .service-provide p {
+  color: #000000;
+  font-size: 18px;
+  line-height: 130%;
+  font-weight: 200;
+}
+
+.portfolio-detail-page-wrapper .service-provide .service-detail {
+  border-top: 1px solid #dddbe3;
+  margin-top: 80px;
+}
+
+.portfolio-detail-page-wrapper .service-provide .service-detail .box {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5px;
+  border-bottom: 1px solid #dddbe3;
+}
+
+.portfolio-detail-page-wrapper .service-provide .service-detail .box .box-a {
+  color: #8987a1;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.portfolio-detail-page-wrapper .service-provide .service-detail .box .box-b {
+  color: #000000;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1400px) {
+  .portfolio-detail-page-wrapper .portfolio-deatil-banner::after {
+    height: 390px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .portfolio-detail-page-wrapper .service-provide::before {
+    top: -50%;
+  }
+
+  .portfolio-detail-page-wrapper .portfolio-deatil-banner::after {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .portfolio-detail-page-wrapper .portfolio-deatil-banner {
+    padding: 150px 0px 70px 0px;
+  }
+
+  .portfolio-detail-page-wrapper .portfolio-deatil-banner p {
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+
+  .portfolio-detail-page-wrapper .portfolio-deatil-banner .title {
+    font-size: 46px;
+    line-height: 55px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .portfolio-detail-page-wrapper .service-provide::before {
+    top: -26%;
+    max-width: 338px;
+  }
+
+  .portfolio-detail-page-wrapper .portfolio-deatil-banner .shapebg::before {
+    height: 32px;
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .portfolio-detail-page-wrapper .portfolio-deatil-banner {
+    padding: 120px 0px 50px 0px;
+  }
+
+  .portfolio-detail-page-wrapper .portfolio-deatil-banner::after {
+    height: 150px;
+  }
+
+  .portfolio-detail-page-wrapper .portfolio-deatil-banner .title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .portfolio-detail-page-wrapper .portfolio-deatil-banner p {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .portfolio-detail-page-wrapper .portfolio-deatil-banner .title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+/* Case Studies section css start */
+
+.case-studies-slider-sec {
+  padding: 126px 0 0;
+  overflow: hidden;
+}
+
+.case-studies-slider-sec h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 140%;
+  color: #150936;
+  margin: 0;
+}
+
+.case-studies-slider-sec .case-studies-slide {
+  margin-top: 50px;
+}
+
+.case-studies-slider-sec .case-studies-slide .slick-list {
+  padding: 0 89px !important;
+}
+
+.case-studies-slider-sec .case-studies-slide .slick-track {
+  display: flex;
+}
+
+.case-studies-slider-sec .case-studies-slide .slick-track .slick-slide {
+  display: block;
+  overflow: hidden !important;
+
+  margin: 0px 28px;
+}
+
+.case-studies-slider-sec
+  .case-studies-slide
+  .slick-track
+  .slick-slide
+  .post-item {
+  width: 100% px !important;
+  height: 100% !important;
+}
+
+.case-studies-slider-sec
+  .case-studies-slide
+  .slick-track
+  .slick-slide
+  .post-item
+  img {
+  width: 100%;
+  height: 447px;
+  object-fit: cover;
+  border-radius: 22px;
+}
+
+.case-studies-slider-sec
+  .case-studies-slide
+  .slick-track
+  .slick-slide
+  .post-item
+  h3 {
+  margin-top: 24px;
+  display: block;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #000000;
+}
+
+.case-studies-slider-sec
+  .case-studies-slide
+  .slick-track
+  .slick-slide
+  .post-item
+  p {
+  color: #858585;
+  font-weight: 300;
+  line-height: 130%;
+  font-size: 20px;
+  letter-spacing: -0.32px;
+}
+
+.case-studies-slider-sec .case-studies-slide .slick-prev,
+.case-studies-slider-sec .case-studies-slide .slick-next {
+  top: -70px !important;
+  color: #000 !important;
+  z-index: 99;
+  transition: all 0.5s;
+}
+
+.case-studies-slider-sec .case-studies-slide .slick-prev {
+  left: auto !important;
+  right: 177px !important;
+}
+
+.case-studies-slider-sec .case-studies-slide .slick-next {
+  left: auto !important;
+  right: 129px !important;
+}
+
+.case-studies-slider-sec .case-studies-slide .slick-next::before {
+  background: url(../images/right-arrow.svg);
+  content: "";
+  width: 29px;
+  height: 25px;
+  display: block;
+  transition: all 0.5s;
+  opacity: 1;
+}
+
+.case-studies-slider-sec .case-studies-slide .slick-prev::before {
+  background: url(../images/left-arrs.svg);
+  content: "";
+  width: 29px;
+  height: 25px;
+  display: block;
+  transition: all 0.5s;
+  opacity: 1;
+}
+
+.portfolio-detail-page-wrapper .client-carousel {
+  padding: 100px 0px;
+}
+
+/*# sourceMappingURL=custom.css.map */
+
+@media only screen and (max-width: 1199px) {
+  .case-studies-slider-sec {
+    padding: 90px 0 0;
+  }
+
+  .case-studies-slider-sec .case-studies-slide .slick-track .slick-slide {
+    margin: 0 15px;
+  }
+
+  .case-studies-slider-sec
+    .case-studies-slide
+    .slick-track
+    .slick-slide
+    .post-item
+    h3 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+
+  .case-studies-slider-sec
+    .case-studies-slide
+    .slick-track
+    .slick-slide
+    .post-item
+    p {
+    font-size: 18px;
+  }
+
+  .case-studies-slider-sec .case-studies-slide {
+    margin-top: 30px;
+  }
+
+  .case-studies-slider-sec .case-studies-slide .slick-prev,
+  .case-studies-slider-sec .case-studies-slide .slick-next {
+    top: -50px !important;
+  }
+
+  .case-studies-slider-sec .case-studies-slide .slick-next {
+    right: 70px !important;
+  }
+
+  .case-studies-slider-sec .case-studies-slide .slick-prev {
+    right: 115px !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .case-studies-slider-sec .case-studies-slide .slick-next {
+    right: 29px !important;
+  }
+
+  .case-studies-slider-sec .case-studies-slide .slick-prev {
+    right: 75px !important;
+  }
+
+
+@media only screen and (max-width: 767px) {
+  .case-studies-slider-sec {
+    padding: 60px 0 0;
+  }
+
+  .case-studies-slider-sec h2 {
+    font-size: 28px;
+  }
+
+  .case-studies-slider-sec .case-studies-slide .slick-list {
+    padding: 0 30px !important;
+  }
+
+  .case-studies-slider-sec .case-studies-slide .slick-track .slick-slide {
+    margin: 0 10px;
+  }
+
+  .case-studies-slider-sec
+    .case-studies-slide
+    .slick-track
+    .slick-slide
+    .post-item
+    h3 {
+    font-size: 22px;
+  }
+
+  .case-studies-slider-sec
+    .case-studies-slide
+    .slick-track
+    .slick-slide
+    .post-item
+    p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .case-studies-slider-sec
+    .case-studies-slide
+    .slick-track
+    .slick-slide
+    .post-item
+    img {
+    height: 300px;
+  }
+}
+
+/* Case Studies section css end  */

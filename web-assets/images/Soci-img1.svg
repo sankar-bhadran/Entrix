@@ -1,0 +1,33 @@
+<svg width="202" height="202" viewBox="0 0 202 202" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dd_440_337)">
+<rect x="60" y="46" width="82" height="82" rx="27" fill="black"/>
+</g>
+<g clip-path="url(#clip0_440_337)">
+<path d="M101 86.5C101 81.9898 104.581 78.3334 108.998 78.3334C113.416 78.3334 116.997 81.9898 116.997 86.5C116.997 91.0104 113.416 94.6667 108.998 94.6667C104.581 94.6667 101 91.0104 101 86.5Z" fill="#1ABCFE"/>
+<path d="M85.0029 102.833C85.0029 98.323 88.5839 94.6666 93.0013 94.6666H101V102.833C101 107.344 97.4188 111 93.0013 111C88.5839 111 85.0029 107.344 85.0029 102.833Z" fill="#0ACF83"/>
+<path d="M101 62.0001V78.3333H108.998C113.416 78.3333 116.997 74.677 116.997 70.1667C116.997 65.6563 113.416 62.0001 108.998 62.0001H101Z" fill="#FF7262"/>
+<path d="M85.0029 70.1667C85.0029 74.677 88.5839 78.3333 93.0013 78.3333H101V62H93.0013C88.5839 62 85.0029 65.6564 85.0029 70.1667Z" fill="#F24E1E"/>
+<path d="M85.0029 86.5C85.0029 91.0104 88.5839 94.6667 93.0013 94.6667H101V78.3334H93.0013C88.5839 78.3334 85.0029 81.9898 85.0029 86.5Z" fill="#A259FF"/>
+</g>
+<defs>
+<filter id="filter0_dd_440_337" x="0" y="0" width="202" height="202" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="4" operator="erode" in="SourceAlpha" result="effect1_dropShadow_440_337"/>
+<feOffset dy="14"/>
+<feGaussianBlur stdDeviation="32"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0941176 0 0 0 0 0.152941 0 0 0 0 0.294118 0 0 0 0.12 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_440_337"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="6" operator="erode" in="SourceAlpha" result="effect2_dropShadow_440_337"/>
+<feOffset dy="8"/>
+<feGaussianBlur stdDeviation="11"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0941176 0 0 0 0 0.152941 0 0 0 0 0.294118 0 0 0 0.12 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_440_337" result="effect2_dropShadow_440_337"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_440_337" result="shape"/>
+</filter>
+<clipPath id="clip0_440_337">
+<rect width="32" height="49" fill="white" transform="translate(85 62)"/>
+</clipPath>
+</defs>
+</svg>
