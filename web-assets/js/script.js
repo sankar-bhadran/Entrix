@@ -469,94 +469,43 @@ $(document).ready(function () {
 
 // MVP TABS
 // Define tab content data including the image path for each tab
-const tabData = {
-  consulting: {
-    heading: "MVP Consulting & Market Analysis",
-    text: "Get expert assistance with conceptualizing your idea, defining the essential features, and conducting thorough market analysis to ensure your MVP aligns with market needs.",
-    links: [
-      "Conceptualization and Idea Validation",
-      "Technical Feasibility Analysis",
-      "Feature Prioritization and Roadmap Planning",
-    ],
-    image: "web-assets/images/mvp/tabsContentPic.png", // Image for this tab
-  },
-  prototyping: {
-    heading: "MVP Prototyping Services",
-    text: "Create rapid prototypes of your product to visualize its functionality and ensure user alignment.",
-    links: ["Wireframes and Mockups", "Clickable Prototypes", "User Testing"],
-    image: "web-assets/images/mvp/tabsContentPic.png", // Image for this tab
-  },
-  "web-development": {
-    heading: "Web Development Services",
-    text: "Build robust web platforms tailored to your MVP requirements with cutting-edge technology.",
-    links: [
-      "Custom Web Development",
-      "Responsive Design",
-      "Integration Services",
-    ],
-    image: "web-assets/images/mvp/tabsContentPic.png", // Image for this tab
-  },
-  "app-development": {
-    heading: "App Development Services",
-    text: "Develop scalable and user-friendly applications for your MVP product.",
-    links: [
-      "iOS & Android Development",
-      "Cross-Platform Support",
-      "App Deployment",
-    ],
-    image: "web-assets/images/mvp//tabsContentPic.png", // Image for this tab
-  },
-  fullscale: {
-    heading: "Fullscale Development Solutions",
-    text: "Launch your product with a fully-functional solution that meets market demands.",
-    links: [
-      "End-to-End Development",
-      "Scalable Architecture",
-      "Ongoing Support",
-    ],
-    image: "web-assets/images/mvp/tabsContentPic.png", // Image for this tab
-  },
-};
 
-// Function to update the content based on the selected tab
-function updateContent(tabKey) {
-  const content = tabData[tabKey];
-  document.getElementById("content-heading").textContent = content.heading;
-  document.getElementById("content-text").textContent = content.text;
-
-  // Update links dynamically
-  const linksContainer = document.getElementById("content-links");
-  linksContainer.innerHTML = content.links
-    .map((link) => `<span>${link}</span>`)
-    .join("");
-
-  // Update the image based on the selected tab
-  document.getElementById("content-image").src = content.image;
-}
-
-// Add event listeners to tabs
+// Function to update content dynamically based on clicked tab
 document.querySelectorAll(".tabs").forEach((tab) => {
   tab.addEventListener("click", () => {
-    // Remove active state from all tabs
-    document.querySelectorAll(".tabs").forEach((t) => {
-      t.classList.remove("active-tab");
-      const img = t.querySelector("img");
-      img.src = "web-assets/images/mvp/tabinactivearrow.svg"; // Set to inactive icon
+    // Reset all tabs to inactive state
+    document.querySelectorAll(".tabs").forEach((tab) => {
+      tab.classList.remove("active-tab");
+      tab.querySelector("img").src =
+        "web-assets/images/mvp/tabinactivearrow.svg";
     });
 
-    // Add active state to clicked tab
+    // Set the clicked tab as active
     tab.classList.add("active-tab");
-    const img = tab.querySelector("img");
-    img.src = "web-assets/images/mvp/tabactivearrow.svg"; // Set to active icon
+    tab.querySelector("img").src = "web-assets/images/mvp/tabactivearrow.svg";
 
-    // Get the corresponding tab data and update content
-    const tabKey = tab.getAttribute("data-tab");
-    updateContent(tabKey);
+    // Update the content based on the selected tab's data attributes
+    const heading = tab.getAttribute("data-heading");
+    const text = tab.getAttribute("data-text");
+    const links = tab.getAttribute("data-links").split(",");
+    const image = tab.getAttribute("data-image");
+
+    document.getElementById("content-heading").textContent = heading;
+    document.getElementById("content-text").textContent = text;
+
+    // Update links dynamically
+    const linksContainer = document.getElementById("content-links");
+    linksContainer.innerHTML = ""; // Clear existing links
+    links.forEach((link) => {
+      const span = document.createElement("span");
+      span.textContent = link;
+      linksContainer.appendChild(span);
+    });
+
+    // Update image
+    document.getElementById("content-image").src = image;
   });
 });
 
-// Initially set the first tab to be active and display its content
-document.querySelector(".tabs").classList.add("active-tab");
-document.querySelector(".tabs img").src =
-  "web-assets/images/mvp/tabactivearrow.svg";
-updateContent("consulting");
+// Trigger the default tab (consulting)
+document.querySelector('.tabs[data-tab="consulting"]').click();

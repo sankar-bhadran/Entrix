@@ -276,7 +276,7 @@
   font-size: 60px;
   font-weight: 600;
   line-height: 80px;
-  /* margin-bottom: 20px;  for mvp style   */
+  /* margin-bottom: 20px;  */
 }
 
 .portfolio-detail-page-wrapper .portfolio-deatil-banner .shapebg {
@@ -305,7 +305,7 @@
 
 .portfolio-banner-img {
   position: relative;
-  /* z-index: 99; */
+  z-index: 99;
 }
 
 .portfolio-detail-page-wrapper .share-portfolio .share-btn button {
